@@ -1,0 +1,20 @@
+.containter-form{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    
+}
+.calender{
+    background-color: aqua;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+   align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.calender:hover{
+    background-color: peru;
+}
