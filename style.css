@@ -5,7 +5,7 @@
     row-gap: 20px;
     
 }
-.calender{
+.calender  ,.day{
     background-color: aqua;
     height: 70px;
     width: 70px;
@@ -13,8 +13,57 @@
    align-items: center;
     justify-content: center;
     display: flex;
+
     
 }
 .calender:hover{
-    background-color: peru;
+    background-color: rgb(185, 12, 136);
+    font-size: 2em;
+}
+.cal{
+    text-align: center;
+    background-color: rgb(4, 81, 55);
+    color: aliceblue;
+
+}
+
+.cal:hover{
+    color: rgb(202, 249, 12);
+}
+.day{
+    background-color: darkorange;
+    color: aliceblue;
+
+}
+.day:hover{
+    background-color: deeppink;
+    font-size: 5em;
+}
+@media screen and (max-width:576px){
+    .containter-form{
+        grid-template-columns: repeat(9  ,1fr);
+
+    }
+    .day , .calender{
+        height: 50px;
+        width: 50px;
+    }
+}
+.CONTAINER-2{
+    width: 150px;
+    height: 150px;
+
+}
+.picture{
+    height: 150px;
+    /* padding-left: 350px;
+    padding-top: 100px; */
+    align-items: center;
+    
+    
+}
+
+body{
+    max-width: 1140px;
+    margin:0 auto
 }
